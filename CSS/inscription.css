@@ -1,0 +1,446 @@
+html {
+
+	font-family: 'Open Sans',sans-serif;
+	color: white;
+	width: 900px;
+	margin: auto;
+	
+}
+
+body {
+
+	background-image:url(../img/background.jpg);
+	background-position: 35% 0%;
+	background-size: 190%;
+	background-repeat: repeat-y;
+	overflow-y: visible;
+}
+
+header {
+
+	background-color: #454545;
+	text-align: center;	
+	margin-top: -35px;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	height: 110px;
+}
+
+.logo {
+ 
+	width: 35%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 15px;
+
+}
+
+.input-box {
+
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 50%;
+	height: 450px;
+	background-color: rgba(255, 255, 255, 0.6);
+	display: inline-block;
+	box-shadow: 0px 0px 10px silver inset;
+
+}
+
+ .input-nom , .input-prenom , .input-mail, .input-mdp, .input-adresse, .input-ville, .input-cp {
+	
+	margin-top: 20px;
+	text-align: center;
+	display: inline-block; 
+	margin-left: -7px;
+	border-radius: 5px;
+	width: 150px;
+	height: 20px;
+}
+
+.colonne1
+{
+   width:140px; 
+   height:100px; 
+   float:left;
+   margin-left: 10%;
+}
+ 
+.colonne2
+{
+   width:140px; 
+   height:60px;
+   margin-right: 10%; 
+   float:right;
+}
+
+.colonne3
+{
+   width:140px; 
+   height:60px;
+   float:center;
+   margin-left: 26%;
+   padding-top: 73%;
+}
+
+.box {
+
+	margin-top: 30px;
+
+}
+
+.note {
+	
+	font-size: 12px;
+	color: #424242;
+	text-decoration: none;
+}
+
+.note:hover {
+	
+	font-size: 12px;
+	color: rgb(6, 77, 165);
+	text-decoration: none;
+}
+
+section {
+
+	background-color: rgba(255, 255, 255, 0.6);
+	background-image: url(../img/ac.jpg);
+	background-position: -70px 54px;
+	background-size: 124%;
+	color: #424242;
+	text-align: center;
+	margin-top: -10px;
+	height: 670px;
+	box-shadow: 0px 2px 20px black;
+
+}
+
+/*a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 10px;
+}*/
+
+button {
+	background: none;
+	border: none;
+}
+
+footer {
+
+	margin-top: 60px;
+	height: 100px;
+	background-color: #424242;
+    color: white;
+}
+
+.icon_panier {
+
+	margin-top: 42px;
+	vertical-align: -10px;
+}
+
+.icon_compte {
+
+	margin-top: 46px;
+	vertical-align: -3px;
+	width: 25px;
+	margin-left: -2px;
+
+}
+
+.panier {
+
+	float: right;
+	margin-top: -10px;
+	margin-right: 0px;
+	background-color: rgb(6, 77, 165);
+	height: 124px;
+	width: 120px;
+	text-decoration: none;
+	color: white;
+}
+
+.compte {
+
+	float: right;
+	margin-top: -10px;
+	margin-right: 0px;
+	height: 124px;
+	width: 120px;
+	text-decoration: none;
+	color: white;
+	border-right: 2px solid silver;
+
+}
+
+.panier:hover {
+
+	float: right;
+	margin-top: -10px;
+	margin-right: 0px;
+	background-color: rgba(6, 77, 165, 0.7);
+	height: 124px;
+	width: 120px;
+	text-decoration: none;
+	color: white;
+
+}
+
+ .compte:hover {
+
+ 	float: right;
+	margin-top: -10px;
+	margin-right: 0px;
+	background-color: rgba(255, 255, 255, 0.1);
+	height: 124px;
+	width: 120px;
+	text-decoration: none;
+	color: white;
+ }
+
+ .navbar {
+
+	overflow: hidden;
+	background-color: #DCDCDC;
+	margin-top: 10px;
+}
+
+.navbar a {
+
+	float: left;
+	text-align: center;
+	padding: 14px 22px;
+	text-decoration: none;
+	color: #424242;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.dropdown {
+
+	display: inline-block;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn:hover {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.dropdown-content-ps4 {
+
+	display: none;
+	position: absolute;
+	background-color: rgb(254, 254, 254);
+	box-shadow: -2px 2px 16px grey;
+	z-index: 1;
+    max-width: 170px;
+    margin-left: -40px;
+}
+
+.dropdown-content-ps3 {
+
+	display: none;
+	position: absolute;
+	background-color: rgb(254, 254, 254);
+	box-shadow: 0px 8px 16px 0px grey;
+	z-index: 1;
+    max-width: 170px;
+    margin-left: -24px;
+
+}
+
+.dropdown-content-xbox1 {
+
+	display: none;
+	position: absolute;
+	background-color: rgb(254, 254, 254);
+	box-shadow: 0px 8px 16px 0px grey;
+	z-index: 1;
+    width: 170px;
+    margin-left: -12px;
+}
+
+.dropdown-content-xbox360 {
+
+	display: none;
+	position: absolute;
+	background-color: rgb(254, 254, 254);
+	box-shadow: 0px 8px 16px 0px grey;
+	z-index: 1;
+    width: 170px;
+    margin-left: -12px;
+}
+
+.dropdown-content-switch {
+
+	display: none;
+	position: absolute;
+	background-color: rgb(254, 254, 254);
+	box-shadow: 0px 8px 16px 0px grey;
+	z-index: 1;
+    width: 170px;
+    margin-left: -18px;
+}
+
+.dropdown-content-ds {
+
+	display: none;
+	position: absolute;
+	background-color: rgb(254, 254, 254);
+	box-shadow: 0px 8px 16px 0px grey;
+	z-index: 1;
+    width: 170px;
+    margin-left: -15px;
+}
+
+
+.dropdown-content-pc {
+
+	display: none;
+	position: absolute;
+	background-color: rgb(254, 254, 254); 
+	box-shadow: 2px 2px 16px grey;
+	z-index: 1;
+    max-width: 170px;
+    margin-left: -40px;
+}
+
+.dropdown-content-ps4 a , .dropdown-content-pc a {
+
+  float: none;
+  text-decoration: none;
+  display: block;
+  text-align: middle;
+  font-size: 14px;
+
+}
+
+.dropdown-content-ps3 a {
+  
+  float: none;
+  text-decoration: none;
+  display: block;
+  text-align: middle;
+  font-size: 14px;
+
+}
+
+.dropdown-content-xbox1 a {
+
+  float: none;
+  text-decoration: none;
+  display: block;
+  text-align: middle;
+  font-size: 14px;	
+}
+
+.dropdown-content-xbox360 a {
+
+  float: none;
+  text-decoration: none;
+  display: block;
+  text-align: middle;
+  font-size: 14px;		
+}
+
+.dropdown-content-switch a {
+
+  float: none;
+  text-decoration: none;
+  display: block;
+  text-align: middle;
+  font-size: 14px;		
+}
+
+
+.dropdown-content-ds a {
+
+  float: none;
+  text-decoration: none;
+  display: block;
+  text-align: middle;
+  font-size: 14px;		
+}
+
+.dropdown-content-ps4 a:hover , .dropdown-content-pc a:hover , .dropdown-content-ps3 a:hover , .dropdown-content-xbox1 a:hover 
+, .dropdown-content-xbox360 a:hover , .dropdown-content-switch a:hover , .dropdown-content-ds a:hover {
+  background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content-ps4 {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content-pc {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content-ps3 {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content-xbox1 {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content-xbox360 {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content-switch {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content-ds {
+  display: block;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4169E1;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 6px;
+  width: 200px;
+  height: 40px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#035bb1), to(#023584)); 
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 2px 2px 6px black;
+  margin-right: 0%;
+  margin-top: 40px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+

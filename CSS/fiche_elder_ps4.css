@@ -1,0 +1,160 @@
+
+.titre {
+	
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 864px;
+	height: 100px;
+	box-shadow: 0px 2px 2px #424242;
+}
+
+.titre2 {
+	
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	margin-top: 6px;
+	margin-left: 0px;
+	width: 864px;
+	height: 10px;
+	box-shadow: 0px 2px 2px #424242;
+}
+
+.infos {
+
+	text-align: left;
+	margin-top: -1.6%;
+}
+
+.console2 {
+
+	border-radius: 5px;
+	padding: 9px 10px;
+	background-color: #424242;
+	font-size: 14px;
+	display: inline-block;
+	color: white;
+	margin-right: 5%;
+	margin-left: 9.5%;
+
+}
+
+.date {
+
+	display: inline-block;
+	margin-right: 3%;
+}
+
+.style {
+
+	display: inline-block;
+}
+
+.couverture {
+
+	width: 442px;
+	height: 500px;
+	margin-top: 5%;
+	float: left;
+}
+
+.container {
+
+  	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#035bb1), to(#023584)); 
+	height: 250px;
+	width: 353.5px;
+	float: right;
+	margin-top: 8%;
+	margin-right: 5%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px silver inset;
+	color: white;
+
+}
+
+.container_prix {
+
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#035bb1), to(#023584)); 
+	height: 60px;
+	width: 132.5px;
+	float: right;
+	margin-top: 5%;
+	margin-right: 17%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px silver inset;
+	color: white;
+	font-size: 24px;
+}
+
+.infos2 {
+
+	margin-top: 13%;
+}
+
+.prix {
+
+	color: white;
+	margin-top: -6%;
+}
+
+.button_panier {
+
+  border-radius: 4px;
+  background-color: #4169E1;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 6px;
+  width: 300px;
+  height: 40px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#035bb1), to(#023584)); 
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 2px 2px 6px black;
+  margin-right: 0%;
+  margin-top: 40px;
+}
+
+.description {
+
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	margin-top: 16%;
+	margin-left: 0px;
+	width: 864px;
+	height: 10px;
+	box-shadow: 0px 10px 2px #424242;
+}
+
+.description1 {
+
+	font-size: 14px;
+	margin-top: -5%;
+	float: left;
+	margin-left: 4.5%;
+	margin-right: 6%;
+	text-align: left;
+}
+
+h1 {
+	margin-top: 35px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+section {
+	
+	height: 1600px;
+	background-color: rgba(255, 255, 255);
+}
+
+footer {
+	margin-top: 75%;
+	height: 100px;
+	background-color: #424242;
+}
